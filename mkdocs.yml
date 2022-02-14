@@ -2,7 +2,7 @@ site_name: My Deafault mkdocs
 site_url: http://127.0.0.1:8000/
 use_directory_urls: false
 copyright: Copyright &copy; 2022 Hsiang-Jen Li | RN
-repo_url: https://github.com/hsiangjenli/hsiangjenli.github.io
+repo_url: https://github.com/hsiangjenli/mkdocs-material-starter-default
 repo_name: mkdocs-starter-default
 
 theme:
