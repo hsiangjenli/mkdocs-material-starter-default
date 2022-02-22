@@ -1,5 +1,5 @@
 site_name: My Deafault mkdocs
-site_url: http://127.0.0.1:8000/
+site_url: https://hsiangjenli.github.io/mkdocs-material-starter-default
 use_directory_urls: false
 copyright: Copyright &copy; 2022 Hsiang-Jen Li | RN
 repo_url: https://github.com/hsiangjenli/mkdocs-material-starter-default
