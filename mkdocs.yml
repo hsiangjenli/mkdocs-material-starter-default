@@ -4,6 +4,8 @@ use_directory_urls: false
 copyright: Copyright &copy; 2022 Hsiang-Jen Li | RN
 repo_url: https://github.com/hsiangjenli/mkdocs-material-starter-default
 repo_name: mkdocs-starter-default
+docs_dir: 'md'
+site_dir: 'docs'
 
 theme:
   name: material
@@ -68,7 +70,12 @@ extra_css:
   - stylesheets/mycss.css
 
 # Custom JavaScript
-# extra_javascript:
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/tables.js
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 markdown_extensions:
   - footnotes
