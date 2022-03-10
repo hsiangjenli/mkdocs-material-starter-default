@@ -6,6 +6,7 @@ repo_url: https://github.com/hsiangjenli/mkdocs-material-starter-default
 repo_name: mkdocs-starter-default
 docs_dir: 'md'
 site_dir: 'docs'
+site_author: 'Hsiang-Jen Li'
 
 theme:
   name: material
@@ -96,3 +97,20 @@ markdown_extensions:
 plugins:
   - search
   - enumerate-headings
+  - print-site:
+      add_print_site_banner: true
+      print_site_banner_template: "md/assets/templates/custom_banner.tpl"
+      add_to_navigation: true
+      print_page_title: '<i class="icon-local_printshop" style="font-size: 1.1em;color = grey"></i> Print Friendly'
+      # Table of contents
+      add_table_of_contents: true
+      toc_title: '目錄'
+      toc_depth: 6
+      # Content-related
+      add_full_urls: false
+      enumerate_headings: true
+      enumerate_figures: true
+      add_cover_page: true
+      cover_page_template: "md/assets/templates/custom_cover_page.tpl"
+      # path_to_pdf: "print_page"
+      exclude:

@@ -1,0 +1,39 @@
+#print-site-banner {
+    border: 0px;
+    border-color: #ffffff;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #eeeeee;
+}
+
+
+.front-page {
+    background-color: darkslategray;
+    padding: 3rem;
+}
+
+h1.front-title {
+    font-size: larger;
+    font-weight: bolder;
+    color: #eeeeee;
+}
+
+h2.front-author {
+    color: #bbae00;
+    font-weight: bold;
+}
+
+h5.front-url {
+    color: #eeeeee;
+    font-weight: bold;
+}
+
+a.front-url {
+    color: #bbae00;
+    font-size: 0.55rem;
+}
+
+.color-block {
+    background-color: #bbae00;
+    height: 14.5rem;
+}
